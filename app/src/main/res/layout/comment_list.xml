@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar"></include>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_comment"
+        android:layout_above="@+id/commment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"></android.support.v7.widget.RecyclerView>
+<LinearLayout
+    android:id="@+id/commment"
+    android:gravity="center"
+    android:weightSum="2"
+    android:background="@color/APP_COLOR"
+    android:layout_alignParentBottom="true"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.s2paa.Utils.EEditText
+        android:id="@+id/txt_comment"
+        android:hint=" Add Comment"
+        android:layout_weight="0.5"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+    <Button
+        android:id="@+id/btn_save_comment"
+        android:layout_weight="1.5"
+        android:background="@drawable/ic_send_black_24dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+
+</RelativeLayout>

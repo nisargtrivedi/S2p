@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e176fd06c2ad5b50a2f5cb4de6000a83a7cb48f5">
+        <dex dex="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-26.0.0-alpha1_378b19c67582e9b06a049e58ed72afaf6c2d15e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/pre-dexed/debug/com.android.support-design-26.0.0-alpha1_e1ff412926d4d3562dcaa6072f26e7c2f9701ff9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-26.0.0-alpha1_dc578603b6ede26a922cefca41ab8219fb10259f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
+        <dex dex="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-11.0.4_3efaae2d3c61f9dd1fa191dc6ce7777b6744af2e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="70ffe00aaf049893f59d1dad57bd82992faa38ef">
+        <dex dex="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-11.0.4_d6235d2f29196de9871664bb31152c30e46d9cd2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-26.0.0-alpha1_a7c57e0083d9a9a7e0b5640ad299e73f5f1c8db8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-26.0.0-alpha1_8ef2608469e4390087f6fb921a9d4adc2e9f8219.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-26.0.0-alpha1_f141235bc3d040beab31e434ea140047c8d56ad9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/exploded-aar/com.github.sundeepk/compact-calendar-view/2.0.3-beta/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a936d1131ec6d65a7094eb4ec37ecf6704f9a336">
+        <dex dex="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/pre-dexed/debug/com.github.sundeepk-compact-calendar-view-2.0.3-beta_81d975387c64e422e04ed2c124753d4e996de58e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nisarg/Desktop/schoolApp/app/libs/com.mobandme.ada_v2.4.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d341b1db087694de1e179072f65b287a63d7c6fb">
+        <dex dex="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/pre-dexed/debug/com.mobandme.ada_v2.4.4_2a2c9cdbc240c0fe3ff35534790a30b3f0eefb6a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nisarg/Desktop/schoolApp/app/libs/achartengine-1.1.0-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9932e3fb9fbe54e80873e77f72a99f79e33b3250">
+        <dex dex="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/pre-dexed/debug/achartengine-1.1.0-1_9613697c4d23755df6cff8f9ca54bccb030b1eb0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nisarg/.gradle/caches/modules-2/files-2.1/org.androidannotations/androidannotations-api/4.3.1/77290867db9d66d83c8426d26f9e39a65c68d7ec/androidannotations-api-4.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="77290867db9d66d83c8426d26f9e39a65c68d7ec">
+        <dex dex="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/pre-dexed/debug/androidannotations-api-4.3.1_302239b2b3034dda2c2fd31f5468e77bd6fd4f13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-26.0.0-alpha1_4b7bb8536286d581e32181c3027b49867099d21e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
+        <dex dex="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-11.0.4_b8fcdfd8b920f3a4cacd21e4492ab111e34495ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/exploded-aar/com.android.support/transition/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/pre-dexed/debug/com.android.support-transition-26.0.0-alpha1_068fbccf7f1d2216b526a61c7e27f42848bc41a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/2.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/pre-dexed/debug/de.hdodenhof-circleimageview-2.1.0_318407f6e46de469bdbdbef6f166213edc108d8b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6666dd525c3da197e7d07f4f23ef5fc7881a697b">
+        <dex dex="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/pre-dexed/debug/com.android.support-multidex-1.0.0_a338ec48c1bd295e9f01eb4d587871b80989a0c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nisarg/Desktop/schoolApp/app/libs/android-async-http-1.4.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3bae85a076241828810bf8fbcc12e5891d5fc34c">
+        <dex dex="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.4_179a7c73f58990abad4c57a0451bc1d9b53685bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e1625e48a836779b5fa141d22e5d05563aaccc9a">
+        <dex dex="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-11.0.4_e3d62f5428764b41e10d5967e64dacc3a3b892e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/pre-dexed/debug/com.android.support.constraint-constraint-layout-1.0.2_c40b5c6394b6cb5d2dd828f24de31ae0ae5e863a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f5ff5e3811e8c9485fd27f9052ae4d4d23a22d9d">
+        <dex dex="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-11.0.4_99abd5264c850bbeb29eac4cda455c2109f5ec4d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/exploded-aar/com.afollestad/sectioned-recyclerview/0.5.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="84d49b4856aadb32b32f64c60ad844b9e9647b0e">
+        <dex dex="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/pre-dexed/debug/com.afollestad-sectioned-recyclerview-0.5.0_0fb5528a35fcd365aa98605e2a3eb10cf64742d8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nisarg/Desktop/schoolApp/app/libs/volley.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="67f0dc352c633833efd9bcecf949ad66d7a6fc50">
+        <dex dex="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/pre-dexed/debug/volley_fa69e56b74f187324b71b837467d75044419df6a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nisarg/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/pre-dexed/debug/support-annotations-26.0.0-alpha1_827db6c911b85fb0773e31d81332ae99f768a124.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-26.0.0-alpha1_bc4928830d9a3c768422b42b817421c5a5111360.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="dd282bdeaa904c59d77e57dedd7e0a241c9b679d">
+        <dex dex="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-iid-11.0.4_1e0e54b36ab58e4b7d7b566c03d28b2a4a5e8f82.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-26.0.0-alpha1_0c52ff4b4d76387f8f77b6e29bebf0d030db1bde.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nisarg/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.1.1/ab19bfb23f641f189b6dca9a4d393f8dc291103a/picasso-2.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ab19bfb23f641f189b6dca9a4d393f8dc291103a">
+        <dex dex="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/pre-dexed/debug/picasso-2.1.1_03e647873cf43f15c1b2d0566cc39e1b102388fe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e5b429c146094a612134910688d169ec08deeefb">
+        <dex dex="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-11.0.4_e06ade162e3772dfb17711cb20dfe5596af010e3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d8942ee348aaa9341f08f7e2437063893fe27542">
+        <dex dex="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gcm-11.0.4_8349fb516f699682405f33d910e392348adf9d2f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-26.0.0-alpha1_0d8d67907ee810538f05251ff4c611b393c639f6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-26.0.0-alpha1_ac495ed6bdb10be7a91950dd0ab88c71e9be86b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/exploded-aar/jp.wasabeef/blurry/2.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f8eb9843e89ea821886a28d660a1916d49149415">
+        <dex dex="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/pre-dexed/debug/jp.wasabeef-blurry-2.1.1_30a918181b12451df2bace5c81189bcb68b65bb3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0bffdc0bd4f7ca0e27c5bfeef39569f8da00aa26">
+        <dex dex="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-base-11.0.4_ba0cf068499b059a2a3af1ff415d054a12830a59.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nisarg/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_5cc99a34ccbce52ca69d4d7486fc06d64c90a32e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/com/google/code/gson/gson/2.3/gson-2.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
+        <dex dex="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/pre-dexed/debug/gson-2.3_794c5c112a09eff6a4f6cf7a17eda19021d44b01.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-26.0.0-alpha1_6be0c8a36fd618a4704ca593e44783d3ec3b95c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="43e9789bd3240271265ab30ce1be9f224843f5a8">
+        <dex dex="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-11.0.4_a01b1327253cb0a57c76e5700cbac06e69f37552.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nisarg/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/pre-dexed/debug/glide-3.7.0_eee73f7c19856148abce8b5d2d30794cf974cbb3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ed87ccdcb70c17d71ba4e6e4ac16afa62d3c49fb">
+        <dex dex="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-11.0.4_694363ac19ba3a9ffcf3583f0c72b305eaca55b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f47f4d5bdfd7d7bf330945b8a7ccce4ab437a710">
+        <dex dex="/Users/nisarg/Desktop/schoolApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-messaging-11.0.4_212150d1da3594141ee8983b4df8d19f41c42d42.jar" />
+    </item>
+
+</items>

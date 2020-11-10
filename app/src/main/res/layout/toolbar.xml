@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:orientation="vertical"
+    android:background="@color/APP_COLOR"
+    android:layout_height="?actionBarSize"
+    android:layout_width="match_parent"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    android:minHeight="?attr/actionBarSize"
+    app:theme="@style/toolbarStyle">
+    <RelativeLayout
+        android:id="@+id/toolbar_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtActionTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Back"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+        <com.s2paa.Utils.TTextView
+            android:visibility="invisible"
+            android:id="@+id/result"
+            android:layout_toLeftOf="@+id/itemAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_arrow_drop_down_black_24dp"
+            android:layout_marginEnd="11dp" />
+
+        <com.s2paa.Utils.TTextView
+            android:visibility="invisible"
+            android:id="@+id/itemAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_add"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="11dp" />
+    </RelativeLayout>
+</android.support.v7.widget.Toolbar>

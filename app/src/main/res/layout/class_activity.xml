@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar"></include>
+    <LinearLayout
+        android:id="@+id/teacher_menu"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <com.s2paa.Utils.TTextView
+            android:background="@color/TEACHER_ATTANDANCE_HEADER"
+            android:layout_weight="1"
+            android:id="@+id/classs"
+            android:gravity="center"
+            android:layout_marginRight="1dp"
+            android:textColor="@android:color/white"
+            android:text="Select Standard"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <com.s2paa.Utils.TTextView
+            android:background="@color/TEACHER_ATTANDANCE_HEADER"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:id="@+id/section"
+            android:layout_marginRight="1dp"
+            android:textColor="@android:color/white"
+            android:text="Select Section"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/class_activity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/EXAM_SCHEDULE_BORDER"
+    android:layout_height="wrap_content">
+    <com.s2paa.Utils.TTextView
+        android:id="@+id/annoucement_date"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="21 June,2017"
+        android:textColor="@android:color/white"
+        android:background="@color/ANNOUCEMENT_COLOR"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.s2paa.Utils.TTextView
+            android:text="M"
+            android:id="@+id/subject_charactor"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:background="@drawable/border_homework_item"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <com.s2paa.Utils.TTextView
+            android:text="Maths"
+            android:textColor="@android:color/black"
+            android:id="@+id/class_name_with_section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/subject_charactor"
+            android:layout_marginStart="20dp" />
+        <com.s2paa.Utils.TTextView
+            android:ellipsize="end"
+            android:layout_marginTop="5dp"
+            android:maxLines="3"
+            android:text="sadfsdfsdfdfdfsdfsfsdfsdfsdfsdfs"
+            android:id="@+id/details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/class_name_with_section"
+            android:layout_alignStart="@+id/class_name_with_section" />
+    </RelativeLayout>
+</LinearLayout>

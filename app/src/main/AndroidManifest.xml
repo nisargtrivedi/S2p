@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.s2paa">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.s2paa.MainActivity" android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name="com.s2paa.Activities.BaseActivity_" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.s2paa.Activities.Login_" android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name="com.s2paa.Activities.Student_Attendance_" android:screenOrientation="portrait">
+
+
+        </activity>
+        <activity android:name="com.s2paa.Activities.MainPage_" android:screenOrientation="portrait"> </activity>
+        <activity android:name="com.s2paa.Activities.Splash_" android:screenOrientation="portrait">
+
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+
+
+
+        </activity>
+        <activity android:name="com.s2paa.Activities.ShowExamList_" android:screenOrientation="portrait"> </activity>
+        <activity android:name="com.s2paa.Activities.AddParentLeave_" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.s2paa.Activities.AddTeacherClassActivity_" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.s2paa.Activities.Mainscreen_" android:screenOrientation="portrait" >
+
+        </activity>
+        <activity android:name="com.s2paa.Activities.TimeTable_"  android:screenOrientation="portrait" ></activity>
+        <activity android:name="com.s2paa.Activities.ExamSchedule_" android:screenOrientation="portrait" ></activity>
+        <activity android:name="com.s2paa.Activities.HomeWork_" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.s2paa.Activities.ShowTeacherExamSchedule_" android:screenOrientation="portrait"></activity>
+<activity android:name="com.s2paa.Activities.AnnouncementActivity_" android:screenOrientation="portrait">
+    <meta-data
+        android:name="android.support.PARENT_ACTIVITY"
+        android:value="com.s2paa.Activities.Mainscreen_"></meta-data>
+</activity>
+    <activity android:name="com.s2paa.Activities.Attandance_" android:screenOrientation="portrait">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.s2paa.Activities.Mainscreen_"></meta-data>
+    </activity>
+        <activity android:name="com.s2paa.Activities.ClassActivities_" android:screenOrientation="portrait"></activity>
+   <activity android:name="com.s2paa.Activities.DetailsActivity_" android:screenOrientation="portrait"></activity>
+   <activity android:name="com.s2paa.Activities.Profile_" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.s2paa.Activities.ChangePassword_" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.s2paa.Activities.StandardAct_"   android:theme="@style/Theme.AppCompat.Light.Dialog" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.s2paa.Activities.DivisionAct_" android:theme="@style/Theme.AppCompat.Light.Dialog" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.s2paa.Activities.Result_" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.s2paa.Activities.Remarks_" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.s2paa.Activities.LeaveList_" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.s2paa.Activities.EventList_" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.s2paa.Activities.AddTeacherHomeWork_" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.s2paa.Activities.AddRemarks_" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.s2paa.Activities.SubjectData_" android:theme="@style/Theme.AppCompat.Light.Dialog"></activity>
+        <activity android:name="com.s2paa.Activities.ResultExamSelection_" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.s2paa.Activities.ChatList_" android:screenOrientation="portrait"></activity>
+<activity android:name="com.s2paa.Activities.choose_result_" android:screenOrientation="portrait" android:theme="@style/Base.Theme.AppCompat.Light.Dialog"></activity>
+
+        <activity android:name="com.s2paa.Activities.StudentAct_" android:screenOrientation="portrait" android:theme="@style/Base.Theme.AppCompat.Light.Dialog"></activity>
+        <activity android:name="com.s2paa.Activities.Show_Comment_Event_" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.s2paa.Activities.AddResult_" android:screenOrientation="portrait"></activity>
+    <activity android:name="com.s2paa.Activities.FeesList_" android:screenOrientation="portrait"></activity>
+
+        <service android:name=".Services.MyFirebaseMessagingService" android:enabled="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".Services.MyFirebaseInstanceIDService" android:enabled="true">
+            <intent-filter>
+
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_notofication" />
+        <!-- Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/APP_COLOR" />
+        <activity android:name=".Activities.CalenderActivity"></activity>
+        <activity android:name=".Activities.StudentAttendanceCalenderActivity"></activity>
+        <activity android:name=".Activities.Feedback_"></activity>
+        <activity android:name=".Activities.Gallery_"></activity>
+        <activity android:name=".Activities.GallaryMainPage_">
+
+
+        </activity>
+    </application>
+
+</manifest>

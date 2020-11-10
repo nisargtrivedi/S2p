@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/splace_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar" android:id="@+id/header"></include>
+    <LinearLayout
+        android:layout_below="@+id/header"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_gravity="center"
+            android:background="@drawable/logooo"
+            android:layout_width="200dp"
+            android:layout_height="200dp" />
+
+        <!--<Spinner-->
+            <!--android:layout_margin="10dp"-->
+
+            <!--android:id="@+id/rv_school"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"></Spinner>-->
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/rv_school"
+            android:background="@color/APP_COLOR"
+            android:gravity="center"
+            android:visibility="gone"
+            android:layout_marginTop="8dp"
+            android:text="Select School"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+        <com.s2paa.Utils.EEditText
+            android:singleLine="true"
+            android:textColorHint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:background="@color/APP_COLOR"
+            android:hint="Enter School Code"
+            android:id="@+id/school"
+            android:maxLength="5"
+            android:paddingLeft="10dp"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+        <!--<android.support.v7.widget.RecyclerView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:id="@+id/rv_school"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:layout_height="wrap_content">-->
+
+        <!--</android.support.v7.widget.RecyclerView>-->
+    </LinearLayout>
+
+    <!--<android.support.v7.widget.AppCompatButton-->
+        <!--android:background="@color/APP_COLOR"-->
+        <!--android:text="Done"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:id="@+id/btndone"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp" />-->
+</RelativeLayout>

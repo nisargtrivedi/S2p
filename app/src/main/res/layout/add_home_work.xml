@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true">
+    <include layout="@layout/toolbar"></include>
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:background="@drawable/border_add_item"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:gravity="left|center"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <com.s2paa.Utils.TTextView
+                android:layout_weight="1.5"
+                android:paddingLeft="10dp"
+                android:text="Standard"
+                android:textSize="13sp"
+                android:gravity="left|center"
+                android:hint="Select Standard"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+            <com.s2paa.Utils.TTextView
+                android:hint="Select Standard"
+                android:drawableRight="@drawable/downarrow"
+                android:layout_weight="1"
+                android:gravity="left|center"
+                android:id="@+id/standard"
+                android:layout_marginRight="1dp"
+                android:textColor="@android:color/black"
+                android:text="Standard"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            </LinearLayout>
+        <com.s2paa.Utils.TTextView
+            android:background="@color/APP_COLOR"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></com.s2paa.Utils.TTextView>
+        <LinearLayout
+            android:gravity="left|center"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <com.s2paa.Utils.TTextView
+                android:layout_weight="1.5"
+                android:paddingLeft="10dp"
+                android:text="Division"
+                android:textSize="13sp"
+                android:gravity="left|center"
+                android:hint="Select Division"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+            <com.s2paa.Utils.TTextView
+                android:layout_marginLeft="1dp"
+                android:layout_weight="1"
+                android:hint="Select Division"
+                android:gravity="left|center"
+                android:drawableRight="@drawable/downarrow"
+                android:id="@+id/division"
+                android:textColor="@android:color/black"
+                android:text="Select Division"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <com.s2paa.Utils.TTextView
+            android:background="@color/APP_COLOR"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></com.s2paa.Utils.TTextView>
+        <LinearLayout
+            android:gravity="left|center"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <com.s2paa.Utils.TTextView
+                android:layout_weight="1.5"
+                android:paddingLeft="10dp"
+                android:text="Date"
+                android:textSize="13sp"
+                android:gravity="left|center"
+                android:hint="Select Division"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <com.s2paa.Utils.TTextView
+                android:textColor="@android:color/black"
+                android:gravity="left|center"
+                android:drawableRight="@drawable/downarrow"
+                android:layout_weight="1"
+                android:id="@+id/today_date"
+                android:layout_marginTop="2dp"
+                android:text="2,August 2017"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+</LinearLayout>
+        <com.s2paa.Utils.TTextView
+            android:background="@color/APP_COLOR"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></com.s2paa.Utils.TTextView>
+    <com.s2paa.Utils.TTextView
+        android:visibility="gone"
+        android:layout_marginTop="5dp"
+        android:textColor="@android:color/black"
+        android:paddingLeft="10dp"
+        android:text="Home Work Type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioGroup
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <android.support.v7.widget.AppCompatRadioButton
+            android:layout_weight="1"
+            android:id="@+id/class_section"
+            android:layout_width="match_parent"
+            android:text="Class/Section"
+            android:layout_height="wrap_content" />
+            <android.support.v7.widget.AppCompatRadioButton
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/single_student"
+                android:text="Single Student"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="left|center"
+        android:layout_weight="2"
+        android:id="@+id/select_student_layout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.s2paa.Utils.TTextView
+            android:layout_marginTop="5dp"
+            android:paddingLeft="10dp"
+            android:layout_weight="1.5"
+            android:text="Student"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <android.support.v7.widget.AppCompatSpinner
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:id="@+id/select_student"
+            android:layout_height="30dp">
+        </android.support.v7.widget.AppCompatSpinner>
+
+    </LinearLayout>
+        <com.s2paa.Utils.TTextView
+            android:background="@color/APP_COLOR"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></com.s2paa.Utils.TTextView>
+        <LinearLayout
+            android:gravity="left|center"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.s2paa.Utils.TTextView
+                android:layout_marginTop="5dp"
+                android:paddingLeft="10dp"
+                android:layout_weight="1.5"
+                android:text="Homework"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+    <com.s2paa.Utils.EEditText
+        android:drawableRight="@drawable/downarrow"
+        android:paddingLeft="1dp"
+        android:background="@android:color/transparent"
+        android:layout_weight="1"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:hint="Home Work Title"
+        android:id="@+id/HomeWorkTitle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+            </LinearLayout>
+        <com.s2paa.Utils.TTextView
+            android:background="@color/APP_COLOR"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></com.s2paa.Utils.TTextView>
+        <LinearLayout
+            android:gravity="left|center"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.s2paa.Utils.TTextView
+                android:layout_marginTop="5dp"
+                android:paddingLeft="10dp"
+                android:layout_weight="1.5"
+                android:text="Homework"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+    <com.s2paa.Utils.EEditText
+        android:paddingLeft="1dp"
+
+        android:background="@android:color/transparent"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Home Work"
+        android:layout_marginBottom="5dp"
+        android:textColorHint="@color/black"
+        android:gravity="top"
+        android:id="@+id/HomeWork"
+        android:minHeight="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+            </LinearLayout>
+</LinearLayout>
+    </LinearLayout>
+    <android.support.v7.widget.AppCompatButton
+        android:layout_alignParentBottom="true"
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/APP_COLOR"
+        android:text="Save"
+        android:textColor="@android:color/white" />
+    </RelativeLayout>

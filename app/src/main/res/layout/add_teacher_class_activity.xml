@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:class="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/toolbar" android:id="@+id/toolbar"></include>
+
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:background="@drawable/border_add_item"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:gravity="left|center"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <com.s2paa.Utils.TTextView
+                android:layout_weight="1.5"
+                android:paddingLeft="10dp"
+                android:text="Standard"
+                android:textSize="13sp"
+                android:gravity="left|center"
+                android:hint="Select Standard"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+            <com.s2paa.Utils.TTextView
+                android:layout_weight="0.5"
+                android:drawableRight="@drawable/downarrow"
+                android:id="@+id/title"
+                android:paddingLeft="10dp"
+                android:textSize="18sp"
+                android:gravity="left|center"
+                android:hint="Select Standard"
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+        </LinearLayout>
+        <com.s2paa.Utils.TTextView
+            android:background="@color/APP_COLOR"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></com.s2paa.Utils.TTextView>
+
+    <LinearLayout
+        android:gravity="left|center"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <com.s2paa.Utils.TTextView
+            android:layout_weight="1.5"
+            android:paddingLeft="10dp"
+            android:text="Division"
+            android:textSize="13sp"
+            android:gravity="left|center"
+            android:hint="Select Standard"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <com.s2paa.Utils.TTextView
+            android:drawableRight="@drawable/downarrow"
+            android:textSize="18sp"
+            android:layout_weight="0.5"
+            android:gravity="center|left"
+            android:paddingLeft="10dp"
+            android:hint="Select Division"
+            android:id="@+id/class_details"
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp"></com.s2paa.Utils.TTextView>
+        </LinearLayout>
+        <com.s2paa.Utils.TTextView
+            android:background="@color/APP_COLOR"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></com.s2paa.Utils.TTextView>
+        <LinearLayout
+android:gravity="left|center"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <com.s2paa.Utils.TTextView
+            android:layout_weight="1.5"
+            android:paddingLeft="10dp"
+            android:text="Subject"
+            android:textSize="13sp"
+            android:gravity="left|center"
+            android:hint="Select Standard"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <com.s2paa.Utils.TTextView
+            android:layout_weight="0.5"
+            android:drawableRight="@drawable/downarrow"
+            android:textSize="18sp"
+            android:gravity="center|left"
+            android:paddingLeft="10dp"
+            android:hint="Select Subject"
+            android:id="@+id/subject"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"></com.s2paa.Utils.TTextView>
+        </LinearLayout>
+        <com.s2paa.Utils.TTextView
+            android:background="@color/APP_COLOR"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></com.s2paa.Utils.TTextView>
+
+        <LinearLayout
+            android:gravity="left|center"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <com.s2paa.Utils.TTextView
+            android:layout_weight="1.5"
+            android:paddingLeft="10dp"
+            android:text="Date"
+            android:textSize="13sp"
+            android:gravity="left|center"
+            android:hint="Select Standard"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <com.s2paa.Utils.TTextView
+android:layout_weight="0.5"
+            android:textSize="18sp"
+            android:gravity="center|left"
+            android:paddingLeft="10dp"
+            android:hint="Select Date"
+            android:id="@+id/date"
+            android:drawableRight="@drawable/downarrow"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"></com.s2paa.Utils.TTextView>
+        </LinearLayout>
+        <com.s2paa.Utils.TTextView
+            android:background="@color/APP_COLOR"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></com.s2paa.Utils.TTextView>
+        <LinearLayout
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.s2paa.Utils.TTextView
+            android:layout_weight="1.4"
+            android:paddingLeft="10dp"
+            android:text="Description"
+            android:textSize="13sp"
+            android:gravity="left|center"
+            android:hint="Select Standard"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <com.s2paa.Utils.EEditText
+
+            android:layout_weight="0.6"
+            android:id="@+id/details"
+            android:paddingTop="2dp"
+            android:paddingLeft="10dp"
+            android:gravity="top"
+            android:hint="Enter Details"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+</LinearLayout>
+    </LinearLayout>
+<com.s2paa.Utils.TTextView
+    android:gravity="center"
+    android:id="@+id/save"
+    android:text="Save"
+    android:textAllCaps="false"
+    android:textColor="@android:color/white"
+    android:background="@color/APP_COLOR"
+    android:layout_alignParentBottom="true"
+    android:layout_width="match_parent"
+    android:layout_height="40dp" />
+</RelativeLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.s2paa.MainActivity"
+    android:orientation="vertical">
+    <com.s2paa.Utils.TTextView
+        android:textStyle="bold"
+        android:text="Login"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:background="@color/APP_COLOR"
+        android:textSize="18sp" />
+
+    <LinearLayout
+
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <com.s2paa.Utils.TTextView
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Choose Account Type"
+            android:textColor="@color/APP_COLOR"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_marginTop="10dp"
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/parents"
+                android:layout_weight="1"
+                android:layout_toRightOf="@+id/teacher"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/btn_selector" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/teacher"
+                android:layout_weight="1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/teacher_btn_selector" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/student"
+                android:layout_weight="1"
+                android:layout_toRightOf="@+id/parents"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/student_btn_selector" />
+        </LinearLayout>
+
+        <com.s2paa.Utils.TTextView
+            android:id="@+id/msg"
+            android:text="please login to get start"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <com.s2paa.Utils.EEditText
+            android:singleLine="true"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/user"
+            android:id="@+id/txt_username"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"
+            android:hint="Username"
+            android:paddingLeft="10dp" />
+
+        <com.s2paa.Utils.EEditText
+            android:paddingRight="8dp"
+            android:drawableRight="@drawable/forgotpassword"
+            android:singleLine="true"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/lock"
+            android:id="@+id/txt_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp" />
+
+        <com.s2paa.Utils.TTextView
+            android:id="@+id/btnclick"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/APP_COLOR"
+            android:gravity="center"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <com.s2paa.Utils.TTextView
+        android:text="LOGIN"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:background="@color/APP_COLOR"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+
+</LinearLayout>

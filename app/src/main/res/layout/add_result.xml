@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/toolbar"></include>
+    <LinearLayout
+        android:id="@+id/menu"
+        android:layout_below="@+id/toolbar"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <com.s2paa.Utils.TTextView
+            android:background="@color/TEACHER_ATTANDANCE_HEADER"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:id="@+id/standard"
+            android:layout_marginRight="1dp"
+            android:textColor="@android:color/white"
+            android:text="Select Standard"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <com.s2paa.Utils.TTextView
+            android:layout_marginLeft="1dp"
+            android:background="@color/TEACHER_ATTANDANCE_HEADER"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:id="@+id/division"
+            android:textColor="@android:color/white"
+            android:text="Select Division"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <com.s2paa.Utils.TTextView
+            android:layout_marginLeft="1dp"
+            android:background="@color/TEACHER_ATTANDANCE_HEADER"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:id="@+id/subject"
+            android:textColor="@android:color/white"
+            android:text="Subject"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/menu"
+        android:layout_above="@+id/save"
+        android:id="@+id/rv_update_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+<Button
+    android:id="@+id/save"
+    android:textColor="@color/white"
+    android:background="@color/APP_COLOR"
+    android:layout_alignParentBottom="true"
+    android:text="Save"
+    android:layout_width="match_parent"
+    android:layout_height="40dp" />
+</RelativeLayout>

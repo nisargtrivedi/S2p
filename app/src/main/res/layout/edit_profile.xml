@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar"></include>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        app:civ_border_color="@color/APP_COLOR"
+        app:civ_border_width="1dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <com.s2paa.Utils.EEditText
+        android:id="@+id/username"
+        android:drawablePadding="10dp"
+        android:hint="Username"
+        android:textStyle="normal"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/user"
+        android:layout_margin="20dp"
+        android:background="@drawable/border"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <com.s2paa.Utils.EEditText
+        android:id="@+id/email"
+        android:drawablePadding="10dp"
+        android:hint="Email"
+        android:textStyle="normal"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/user"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/border"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <com.s2paa.Utils.EEditText
+        android:id="@+id/phone"
+        android:drawablePadding="10dp"
+        android:hint="Phone"
+        android:textStyle="normal"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/user"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/border"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <com.s2paa.Utils.EEditText
+        android:id="@+id/address"
+        android:drawablePadding="10dp"
+        android:hint="Address"
+        android:textStyle="normal"
+        android:paddingLeft="10dp"
+        android:minHeight="40dp"
+        android:drawableLeft="@drawable/user"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+<com.s2paa.Utils.TTextView
+    android:textColor="@android:color/white"
+    android:gravity="center"
+    android:text="Done"
+    android:background="@color/APP_COLOR"
+    android:layout_alignParentBottom="true"
+    android:layout_width="match_parent"
+    android:layout_height="40dp" />
+</RelativeLayout>

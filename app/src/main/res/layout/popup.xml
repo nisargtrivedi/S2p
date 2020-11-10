@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.s2paa.Utils.TTextView
+            android:paddingLeft="5dp"
+            android:text="Forgot Password"
+            android:textSize="22sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/email"
+            android:hint="Enter Email"
+            android:layout_marginTop="20dp"
+            android:lines="1"
+            android:inputType="textEmailAddress"
+            android:textSize="12sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/go"
+            android:text="Ok"
+
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textColor="@android:color/white"
+            android:background="@color/APP_COLOR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

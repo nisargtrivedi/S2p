@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/toolbar"></include>
+
+    <!--<com.sms.Utils.CalendarCustomView-->
+        <!--android:id="@+id/custom_calendar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+    <!--</com.sms.Utils.CalendarCustomView>-->
+    <com.s2paa.Listener.CustomCalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        app:calendarBackgroundColor="@android:color/white"
+        app:calendarTitleTextColor="@color/black"
+        app:currentDayOfMonthColor="@android:color/black"
+        app:dayOfMonthTextColor="@color/black"
+        app:dayOfWeekTextColor="@color/black"
+        app:disabledDayBackgroundColor="@android:color/white"
+        app:disabledDayTextColor="@android:color/darker_gray"
+        app:selectedDayBackgroundColor="@android:color/holo_green_dark"
+        app:titleLayoutBackgroundColor="@color/white"
+        app:weekLayoutBackgroundColor="@color/white"/>
+    <TextView
+        android:id="@+id/selected_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.s2paa.Utils.TTextView
+            android:layout_width="20dp"
+            android:background="@android:color/holo_red_dark"
+            android:layout_height="20dp" />
+        <com.s2paa.Utils.TTextView
+            android:text="Absent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.s2paa.Utils.TTextView
+            android:layout_width="20dp"
+            android:background="#123456"
+            android:layout_height="20dp" />
+        <com.s2paa.Utils.TTextView
+            android:text="Present"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

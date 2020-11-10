@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/main_view"
+    android:background="@color/EXAM_SCHEDULE_BORDER"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.s2paa.Utils.TTextView
+        android:maxLines="1"
+        android:lines="1"
+        android:paddingLeft="10dp"
+        android:textColor="@android:color/white"
+        android:background="@color/ANNOUCEMENT_COLOR"
+        android:ellipsize="marquee"
+        android:text="asdasdsad"
+        android:id="@+id/date"
+        android:textSize="15sp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+
+    <com.s2paa.Utils.TTextView
+        android:maxLines="1"
+        android:lines="1"
+        android:gravity="center|left"
+        android:textColor="@android:color/black"
+        android:paddingLeft="15dp"
+        android:textSize="18.5sp"
+        android:ellipsize="marquee"
+        android:text="asdasdsad"
+        android:id="@+id/class_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <com.s2paa.Utils.TTextView
+        android:maxLines="2"
+        android:gravity="center|left"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="15dp"
+        android:text="sadsaddfsad"
+        android:ellipsize="end"
+        android:id="@+id/details"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+<TextView
+    android:background="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="1dp" />
+</LinearLayout>

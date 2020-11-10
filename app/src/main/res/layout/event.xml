@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<include layout="@layout/toolbar"></include>
+    <!--<LinearLayout-->
+        <!--android:background="@color/APP_COLOR"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp">-->
+        <!--<com.sms.Utils.TTextView-->
+            <!--android:gravity="center"-->
+            <!--android:text="Upcoming Events"-->
+            <!--android:textColor="@android:color/white"-->
+           <!--android:background="@drawable/border_event"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="30dp" />-->
+        <!--<com.sms.Utils.TTextView-->
+            <!--android:background="@android:color/white"-->
+            <!--android:gravity="center"-->
+            <!--android:textColor="@color/APP_COLOR"-->
+            <!--android:text="Past Events"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="30dp" />-->
+    <!--</LinearLayout>-->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_event"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <!--<LinearLayout-->
+        <!--android:padding="10dp"-->
+        <!--android:background="@drawable/test"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--<ImageView-->
+            <!--android:background="@drawable/picnic"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="200dp" />-->
+        <!--<LinearLayout-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+            <!--<com.sms.Utils.TTextView-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="Parents Meeting Day"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content" />-->
+            <!--<com.sms.Utils.TTextView-->
+                <!--android:gravity="right"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="21 july 2017"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content" />-->
+        <!--</LinearLayout>-->
+        <!--<LinearLayout-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+            <!--<com.sms.Utils.TTextView-->
+                <!--android:drawableLeft="@drawable/like"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="Like"-->
+                <!--android:paddingLeft="20dp"-->
+                <!--android:drawablePadding="5dp"-->
+                <!--android:gravity="center|left"-->
+                <!--android:background="@drawable/test"-->
+                <!--android:textColor="@android:color/black"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="50dp" />-->
+            <!--<com.sms.Utils.TTextView-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="Comment"-->
+                <!--android:paddingLeft="20dp"-->
+                <!--android:drawableLeft="@drawable/comment"-->
+                <!--android:background="@drawable/test"-->
+                <!--android:textColor="@android:color/black"-->
+                <!--android:gravity="center|left"-->
+                <!--android:drawablePadding="5dp"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="50dp" />-->
+        <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+
+</LinearLayout>

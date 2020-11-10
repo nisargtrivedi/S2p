@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="APP_COLOR">#FF7ED321</color>
+    <!--<color name="APP_COLOR">#3F51B5</color>-->
+    <color name="ANNOUCEMENT_COLOR">#EE888888</color>
+    <color name="TIME_TABLE_BORDER_COLOR">#FFBFBFBF</color>
+    <color name="TIME_TABLE_TAB_HOST_BORDER">#FF9013FE</color>
+    <color name="EXAM_SCHEDULE_BORDER">#FFf1f1f1</color>
+    <color name="EXAM_SCHEDULE_TIME">#FF3B6AA1</color>
+    <color name="EXAM_SCHEDULE_TIME_TWO">#FF4C86C9</color>
+    <color name="HOME_WORK_BAKCOLOR">#FFD8F1BC</color>
+    <color name="result">#FF417505</color>
+    <color name="result_header">#FF999999</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#222222</color>
+    <color name="day_disabled_background_color">#F1F5F8</color>
+    <color name="day_disabled_text_color">#DEDEDE</color>
+    <color name="selected_day_background">#03A7E9</color>
+    <color name="current_day_of_month">#03A7E9</color>
+
+    <color name="TEACHER_ATTANDANCE_HEADER">#FF44A84E</color>
+
+    <!--<color name="TEACHER_ATTANDANCE_HEADER">#3F51B5</color>-->
+</resources>

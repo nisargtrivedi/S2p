@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/toolbar"></include>
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabTextColor="@android:color/black"
+        app:tabIndicatorColor="@color/TIME_TABLE_TAB_HOST_BORDER"
+        app:tabSelectedTextColor="@color/TIME_TABLE_TAB_HOST_BORDER"
+        android:textAlignment="center"
+        app:tabIndicatorHeight="5dp"
+        app:tabGravity="fill"
+        app:tabMode="scrollable"
+        android:background="@color/APP_COLOR" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/RVtimetable"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:background="@drawable/test"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:scaleType="fitXY"
+            android:id="@+id/event_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.s2paa.Utils.TTextView
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:id="@+id/title"
+                android:layout_weight="1"
+                android:text="Parents Meeting Day"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <com.s2paa.Utils.TTextView
+                android:gravity="right"
+                android:textColor="@android:color/black"
+                android:layout_weight="1"
+                android:id="@+id/date"
+                android:text="21 july 2017"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <com.s2paa.Utils.TTextView
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:text="sdfsdfsdfsdfdsfsdfsdfsdfvsdfvsdfsdfvhsdfsfhsfsfsd"
+            android:ellipsize="end"
+            android:maxLines="4"
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:weightSum="3"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.s2paa.Utils.TTextView
+                android:layout_marginLeft="3dp"
+                android:id="@+id/likes"
+                android:drawableLeft="@drawable/like"
+                android:layout_weight="1"
+                android:text="Like"
+                android:paddingLeft="3dp"
+                android:drawablePadding="5dp"
+                android:gravity="center|left"
+                android:textColor="@android:color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp" />
+            <com.s2paa.Utils.TTextView
+                android:layout_weight="1"
+                android:text="Comment"
+                android:id="@+id/comment"
+                android:paddingLeft="3dp"
+                android:drawableLeft="@drawable/comment_white_oval_bubble"
+                android:textColor="@android:color/black"
+                android:gravity="center|left"
+                android:drawablePadding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp" />
+            <com.s2paa.Utils.TTextView
+                android:layout_marginRight="3dp"
+                android:id="@+id/share"
+                android:layout_weight="1"
+                android:text="Share"
+                android:paddingLeft="3dp"
+                android:drawableLeft="@drawable/share"
+                android:textColor="@android:color/black"
+                android:gravity="center|left"
+                android:drawablePadding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

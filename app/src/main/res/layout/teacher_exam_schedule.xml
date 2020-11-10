@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/toolbar"></include>
+
+    <com.s2paa.Utils.TTextView
+        android:id="@+id/standard"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="1dp"
+        android:background="@color/TEACHER_ATTANDANCE_HEADER"
+        android:gravity="center"
+        android:text="Select Standard"
+        android:textColor="@android:color/white" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/examschedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">S2P</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="TIME_TABLE_MONDAY">Monday</string>
+    <string name="TIME_TABLE_TUESDAY">Tuesday</string>
+    <string name="TIME_TABLE_WEDNESDAY">Wednesday</string>
+    <string name="TIME_TABLE_THURSDAY">Thursday</string>
+    <string name="TIME_TABLE_FRIDAY">Friday</string>
+    <string name="TIME_TABLE_SATURDAY">Saturday</string>
+</resources>

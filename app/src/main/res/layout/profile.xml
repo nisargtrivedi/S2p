@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/profile_bg"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img"
+        android:src="@drawable/logo"
+        app:civ_border_color="@color/APP_COLOR"
+        app:civ_border_width="1dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="12dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="21dp" />
+    <com.s2paa.Utils.TTextView
+        android:id="@+id/phno"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="8998898998"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/email"
+        android:layout_alignStart="@+id/email" />
+    <com.s2paa.Utils.TTextView
+        android:id="@+id/name"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Nisarg"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/img"
+        android:layout_marginStart="16dp" />
+    <com.s2paa.Utils.TTextView
+        android:id="@+id/email"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nisarg@gmail.com"
+        android:layout_below="@+id/name"
+        android:layout_alignStart="@+id/name" />
+
+
+
+
+
+</RelativeLayout>
+    <LinearLayout
+        android:id="@+id/ll_one"
+        android:layout_margin="5.5dp"
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.s2paa.Utils.TTextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="STANDARD" />
+        <com.s2paa.Utils.TTextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="DIVISION" />
+        <com.s2paa.Utils.TTextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="ROLLNO" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_two"
+        android:weightSum="3"
+        android:layout_margin="3.5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.s2paa.Utils.TTextView
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:id="@+id/standard"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true" />
+        <com.s2paa.Utils.TTextView
+            android:gravity="center"
+            android:id="@+id/division"
+            android:textColor="@android:color/black"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="A" />
+        <com.s2paa.Utils.TTextView
+            android:gravity="center"
+            android:id="@+id/rollno"
+            android:textColor="@android:color/black"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="3" />
+
+    </LinearLayout>
+
+    <com.s2paa.Utils.TTextView
+        android:id="@+id/TTextView"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#e3e3e3"
+        android:text="ADDRESS" />
+
+    <com.s2paa.Utils.TTextView
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:ellipsize="marquee"
+        android:maxLines="4"
+        android:id="@+id/address"
+        android:text="104,Akash Appartment,Near Juhu Society,Ahmedbad \n 3800008"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <com.s2paa.Utils.TTextView
+        android:padding="5dp"
+        android:id="@+id/ll_three"
+        android:layout_marginTop="15dp"
+        android:text="PARENTS INFORMATION"
+        android:background="#e3e3e3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/parents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

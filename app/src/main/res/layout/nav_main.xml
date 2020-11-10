@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/layout_Item_main">
+
+
+
+    <!--ADD MENU ITEM HERE-->
+
+    <LinearLayout
+        android:id="@+id/fees"
+        android:gravity="left|center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ic_rupee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.s2paa.Utils.TTextView
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="10dp"
+            android:textSize="16sp"
+            android:text="Fees"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/change_password"
+        android:gravity="left|center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ic_change_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.s2paa.Utils.TTextView
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="10dp"
+            android:textSize="16sp"
+            android:text="Change Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/calendar_data"
+        android:gravity="left|center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/calendar_ic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.s2paa.Utils.TTextView
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="10dp"
+            android:textSize="16sp"
+            android:text="Calendar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/leave_list"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="left|center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ic_leave_list" />
+
+        <com.s2paa.Utils.TTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Leave List"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/chat"
+        android:gravity="left|center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ic_chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.s2paa.Utils.TTextView
+            android:text="Chat"
+            android:textSize="16sp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/rating"
+        android:gravity="left|center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ic_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.s2paa.Utils.TTextView
+            android:text="Rating"
+            android:textSize="16sp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/feedback"
+        android:gravity="left|center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ic_feedback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.s2paa.Utils.TTextView
+            android:text="Feedback"
+            android:textSize="16sp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/logout"
+        android:gravity="left|center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ic_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.s2paa.Utils.TTextView
+            android:text="Logout"
+            android:textSize="16sp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

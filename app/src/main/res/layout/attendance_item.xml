@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:id="@+id/main_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img"
+        android:src="@drawable/logo"
+        app:civ_border_color="@color/ANNOUCEMENT_COLOR"
+        app:civ_border_width="0.001dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp" />
+    
+    <com.s2paa.Utils.TTextView
+        android:text="nisarg"
+        android:id="@+id/student_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/img"
+        android:layout_marginTop="14dp" />
+    <com.s2paa.Utils.TTextView
+        android:text="Absent"
+        android:id="@+id/present_absent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/student_name"
+        android:layout_alignStart="@+id/student_name" />
+
+    <com.s2paa.Utils.TTextView
+        android:background="@drawable/checkbox"
+        android:id="@+id/check_box_present_absent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/student_name"
+        android:layout_alignBottom="@+id/student_name"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp" />
+    
+    <View
+        android:background="@color/ANNOUCEMENT_COLOR"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/present_absent"
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"></View>
+</RelativeLayout>
